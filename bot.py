@@ -1188,4 +1188,4 @@ async def bal(ctx):
 
 
 
-bot.run('NjY2ODY3NzE3OTYxMjg1NjYz.XiU9qQ.iegHmkFCSm6349pYd3OaK4MzJ1Q')
+bot.run('haha u thought losers')
