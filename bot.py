@@ -161,11 +161,11 @@ async def on_ready():
 async def change_status():
     await bot.change_presence(activity=discord.Game(next(status)))  
 
-# @bot.command()
-# async def join(ctx):
-#   channel = client.get_channel('644683652818665543')
-#   voice = client.join_voice_channel(channel)
-#   await ctx.send('LOL i joined')
+@bot.command()
+async def join(ctx):
+   channel = ctx.author.voice.channel
+   await channel.connect()
+   await ctx.send('LOL i joined')
 
 @bot.command()
 async def thotsbegone(ctx):
